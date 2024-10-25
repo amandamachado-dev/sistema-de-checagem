@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/reponame/static/css/main.350949f5.css",
-    "main.js": "/reponame/static/js/main.3ddd844d.js",
-    "index.html": "/reponame/index.html",
-    "main.350949f5.css.map": "/reponame/static/css/main.350949f5.css.map",
-    "main.3ddd844d.js.map": "/reponame/static/js/main.3ddd844d.js.map"
+    "main.css": "/sistema-de-checagem/static/css/main.350949f5.css",
+    "main.js": "/sistema-de-checagem/static/js/main.3ddd844d.js",
+    "index.html": "/sistema-de-checagem/index.html",
+    "main.350949f5.css.map": "/sistema-de-checagem/static/css/main.350949f5.css.map",
+    "main.3ddd844d.js.map": "/sistema-de-checagem/static/js/main.3ddd844d.js.map"
   },
   "entrypoints": [
     "static/css/main.350949f5.css",
