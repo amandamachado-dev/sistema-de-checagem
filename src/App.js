@@ -77,6 +77,18 @@ const App = () => {
                 case 1.4:
                   exigencias.push(' * Assinatura: Envie assinatura manual idêntica à utilizada no RG ou CNH apresentado.');
                   break;
+              }
+            } else if (item.id === 2) {
+              switch (field.id) {
+                case 2.1:
+                  exigencias.push(' * Envie foto padrão de documento com fundo branco, boa qualidade na imagem / NÍTIDA.');
+                  break;
+                case 2.2:
+                  exigencias.push(' * Envie Digital do polegar com boa qualidade na imagem / NÍTIDA.');
+                  break;
+                case 2.3:
+                  exigencias.push(' * Envie com assinatura manual idêntica à utilizada no RG ou CNH apresentado.');
+                  break;
                 default:
                   exigencias.push(` * ${field.name}`);
               }
