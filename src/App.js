@@ -26,7 +26,7 @@ const App = () => {
     { id: 4, name: 'Cópia do RG ou CNH', status: '' },
     { id: 5, name: 'Cópia do CPF (se não constar no RG)', status: '' },
     { id: 6, name: 'Cópia do certificado de reservista (para homens de 18 a 45 anos)', status: '' },
-    { id: 7, name: 'Cópia autenticada do diploma de conclusão do curso de TTI', status: '' },
+    { id: 7, name: 'Cópia frente e verso do diploma de conclusão do curso de TTI', status: '' },
     { id: 8, name: 'Autenticidade do diploma: Sistec ou GDAE', status: '' },
     { id: 9, name: 'Portaria COFECI', status: '' },
     { id: 10, name: 'Inscrição em outro CRECI', status: '' },
@@ -81,7 +81,7 @@ const App = () => {
             } else if (item.id === 2) {
               switch (field.id) {
                 case 2.1:
-                  exigencias.push(' * Envie foto padrão de documento com fundo branco, boa qualidade na imagem / NÍTIDA.');
+                  exigencias.push(' * Envie foto 3x4 padrão de documento com fundo branco, boa qualidade na imagem / NÍTIDA.');
                   break;
                 case 2.2:
                   exigencias.push(' * Envie Digital do polegar com boa qualidade na imagem / NÍTIDA.');
